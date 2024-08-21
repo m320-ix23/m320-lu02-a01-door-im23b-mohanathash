@@ -9,11 +9,16 @@ class Door:
     vom Typ Door_lock (Türschloss).
     """
 
-    # Mit dem Keyword def wird eine Funktion bzw. eben ein Konstruktor deklariert.
-    # Der Konstruktor trägt IMMER den Namen __init__ und weist als ersten Parameter den Wert self auf.
-    # Danach folgen die Übergabeparameter, deren Werte dann den Attributen zugewiesen werden.
-    # Attribute können aber auch mit einem fixen Wert initialisiert werden.
-    # Konstruktoren werden als Erstes im Programm angeschrieben.
+    # Mit dem Keyword def wird eine Funktion bzw.
+    # eben ein Konstruktor deklariert.
+    # Der Konstruktor trägt IMMER den Namen __init__
+    # und weist als ersten Parameter den Wert self auf.
+    # Danach folgen die Übergabeparameter, deren Werte
+    # dann den Attributen zugewiesen werden.
+    # Attribute können aber auch mit einem fixen
+    # Wert initialisiert werden.
+    # Konstruktoren werden als Erstes
+    # im Programm angeschrieben.
     def __init__(self, ref2door_lock, base_color):
         """
         Erzeugt ein Tür-Objekt.
