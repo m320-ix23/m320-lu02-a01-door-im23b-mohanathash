@@ -114,9 +114,9 @@ class Door:
     self._color = new_color
 
 
-"""
-nur für die korrekte Übersetzung und Ausführung 
-"""
+  """
+  nur für die korrekte Übersetzung und Ausführung 
+  """
 
 
 class DoorLock:
